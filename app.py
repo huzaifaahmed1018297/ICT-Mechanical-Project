@@ -69,10 +69,4 @@ density_val = df[df["Material"] == selected_material]["Density (kg/m³)"].values
 
 st.info(f"The density of **{selected_material}** is **{density_val} kg/m³**.")
 
-# Display Table
-with st.expander("View Full Density Table"):
-    st.table(df)
-
-# --- FOOTER ---
-st.write("---")
-st.caption(f"Developed by HUZAIFA AHMED | Roll No: 25-ME-68")
+# Dis
